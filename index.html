@@ -2699,7 +2699,7 @@ var PROBLEMS = [
         ['Yes, with `g(t) = 5` and `h(y) = −2y`', 'The right side must equal the product `g(t) h(y)`. Here `5 · (−2y) = −10y`, not `5 − 2y`.']] }] },
 
   /* 2. separate, integrate each side, fit the constant, solve for y, and the interval */
-  { id: 'p2', sec: 'sec-solve', task: 'Solve the initial-value problem, and state the interval on which the solution is valid.', board: ['D{y}{t} = 3t^2 e^(−y)', 'y(0) = 0'], v: 't', teach: T_SEP,
+  { id: 'p2', sec: 'sec-solve', task: 'Solve the initial-value problem, and state the largest interval containing `t = 0` on which the solution is valid.', board: ['D{y}{t} = 3t^2 e^(−y)', 'y(0) = 0'], v: 't', teach: T_SEP,
     steps: [
       { lead: 'Separate the variables. Which line is right?', ok: 0, pick: [
         ['`e^y dd{y} = 3t^2 dd{t}`', 'Dividing both sides by `e^(−y)` is the same as multiplying by `e^y`. Since `e^(−y)` is never 0, no constant solution is lost.'],
